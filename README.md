@@ -7,4 +7,6 @@ make build
 make start
 
 ### Testing:
+make test
+or
 curl -i http://localhost:8080
