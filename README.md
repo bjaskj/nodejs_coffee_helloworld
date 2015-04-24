@@ -9,4 +9,4 @@ make start
 ### Testing:
 make test
 or
-curl -i http://localhost:8080
+curl -i http://localhost:3456
