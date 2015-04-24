@@ -12,13 +12,13 @@ build:
 	docker build -t $(NS)/$(REPO):$(VERSION) .
 
 run:
-	coffee httpserver.coffee
+	npm start
 
 start:
 	docker run $(PORTS) -d $(NS)/$(REPO):$(VERSION)
 
 test:
-	curl -i localhost:8080
+	curl -i localhost:3456
 
 clean:
 	rm -rf node_modules
